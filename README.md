@@ -1,4 +1,4 @@
-### Hola, I'm Eslam.
+### Hey, I'm Eslam.
 
 - 🔭 I’m currently working on Car Diagnostic tool & its website.
 - 🌱 I’m currently learning AUTOSAR concepts in depth & Test automation.
