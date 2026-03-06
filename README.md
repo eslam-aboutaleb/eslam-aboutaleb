@@ -1,5 +1,5 @@
 
-- 💬 Ask me about Automation testing and embedded systems stuff.
+- 💬 AI Fullstack engineer.
 - 📫 How to reach me: linkedin.com/in/eslamaboutaleb or email me: eslamehababoutaleb@gmail.com .
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eslam-aboutaleb&layout=compact)](https://github.com/eslam-aboutaleb/github-readme-stats)
