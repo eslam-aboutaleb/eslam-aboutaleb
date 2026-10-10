@@ -5,7 +5,8 @@
 **Senior AI / Fullstack Engineer — GenAI Systems, Agentic Architectures, RAG, Cloud-Native Backends**
 
 I design and ship production AI products end to end: multi-agent orchestration, retrieval-augmented
-generation, evaluation harnesses, and the FastAPI / React / cloud infrastructure that runs them.
+generation, evaluation harnesses, and the FastAPI / Spring Boot / React / cloud infrastructure that
+runs them.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eslamaboutaleb)
 [![Email](https://img.shields.io/badge/Email-eslamehababoutaleb@gmail.com?style=flat-square&logo=gmail&logoColor=white)](mailto:eslamehababoutaleb@gmail.com)
@@ -148,11 +149,11 @@ Docker Compose with nginx.
 
 | Area | Technologies |
 | --- | --- |
-| **Languages** | Python, TypeScript, JavaScript, C |
+| **Languages** | Python, Java, TypeScript, JavaScript, C |
 | **AI frameworks** | Google ADK, LangGraph, LangChain, LiteLLM, MCP, A2A Protocol |
 | **Agent engineering** | Multi-agent systems, agent orchestration, function calling, structured outputs, prompt & context engineering |
 | **RAG & evaluation** | Vector search, embeddings, RAG agents, RAGAS, LangSmith, ChromaDB |
-| **Backend** | FastAPI, Flask, Java, Spring Boot, REST APIs, microservices, AsyncIO, WebSockets, SSE |
+| **Backend** | FastAPI, Spring Boot, Flask, REST APIs, microservices, AsyncIO, WebSockets, SSE |
 | **Frontend** | React, Tailwind CSS, HTML5, CSS3 |
 | **Cloud & AI platforms** | GCP (Vertex AI, Cloud Run, Cloud Storage, Agent Engine), AWS (EC2, Lambda, S3) |
 | **Infrastructure** | Terraform, IaC, Docker, CI/CD |
