@@ -5,7 +5,7 @@
 **Senior AI / Fullstack Engineer — GenAI Systems, Agentic Architectures, RAG, Cloud-Native Backends**
 
 I design and ship production AI products end to end: multi-agent orchestration, retrieval-augmented
-generation, evaluation harnesses, and the FastAPI / Spring Boot / React / cloud infrastructure that
+generation, evaluation harnesses, and the Backend / Frontend / cloud infrastructure that
 runs them.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eslamaboutaleb)
@@ -153,28 +153,14 @@ Docker Compose with nginx.
 | **AI frameworks** | Google ADK, LangGraph, LangChain, LiteLLM, MCP, A2A Protocol |
 | **Agent engineering** | Multi-agent systems, agent orchestration, function calling, structured outputs, prompt & context engineering |
 | **RAG & evaluation** | Vector search, embeddings, RAG agents, RAGAS, LangSmith, ChromaDB |
-| **Backend** | FastAPI, Spring Boot, Flask, REST APIs, microservices, AsyncIO, WebSockets, SSE |
+| **Backend** | FastAPI, SpringBoot, Flask, REST APIs, microservices, AsyncIO, WebSockets, SSE |
 | **Frontend** | React, Tailwind CSS, HTML5, CSS3 |
 | **Cloud & AI platforms** | GCP (Vertex AI, Cloud Run, Cloud Storage, Agent Engine), AWS (EC2, Lambda, S3) |
 | **Infrastructure** | Terraform, IaC, Docker, CI/CD |
-| **Data** | PostgreSQL, pgvector, Redis |
+| **Data** | PostgreSQL,MongoDb, pgvector, chroma, Qdrant, Redis |
 
 ---
 
-## Education
-
-- **MBA, AI in Business** — AAST
-- **B.Sc. Mechatronics Engineering** — October 6 University
-
-## Certifications
-
-- **ISTQB Certified Tester, Foundation Level (CTFL)**
-- **ISTQB Certified Tester, Agile Extension (CTFL-AT)**
-- **Professional Google Cloud Architect**
-
-## Languages
-
-English · Arabic
 
 ---
 
