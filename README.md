@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1F6FEB,100:58A6FF&height=220&section=header&text=Eslam%20Ehab&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Forward%20Deployed%20Engineer%20%7C%20AI%20%26%20Full-Stack&descSize=18&descAlignY=55&animation=fadeIn&duration=2000" width="100%" alt="Eslam Ehab — Forward Deployed Engineer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:1F6FEB,100:58A6FF&amp;height=220&amp;section=header&amp;text=Eslam%20Ehab&amp;fontSize=70&amp;fontColor=ffffff&amp;fontAlignY=35&amp;desc=Senior%20AI%20%2F%20Fullstack%20Engineer&amp;descSize=18&amp;descAlignY=55&amp;animation=fadeIn&amp;duration=2000" width="100%"/>
 </p>
 
 <h1 align="center">Eslam Ehab</h1>
