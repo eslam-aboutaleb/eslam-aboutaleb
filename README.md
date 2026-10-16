@@ -2,15 +2,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:1F6FEB,100:58A6FF&amp;height=220&amp;section=header&amp;text=Eslam%20Ehab&amp;fontSize=70&amp;fontColor=ffffff&amp;fontAlignY=35&amp;desc=Senior%20AI%20%2F%20Fullstack%20Engineer&amp;descSize=18&amp;descAlignY=55&amp;animation=fadeIn&amp;duration=2000" width="100%"/>
 </p>
 
-<h1 align="center">Eslam Ehab</h1>
-
 <p align="center">
   <strong>Forward Deployed Engineer · AI & Full-Stack · From Idea to Production</strong>
 </p>
 
-<p align="center">
-  I turn ambiguous problems into useful, deployed software — connecting product thinking, system design, implementation, and production delivery.
-</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/eslamaboutaleb"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
@@ -22,12 +17,11 @@
 
 ## How I Work
 
-I work across the boundary between users, product, and engineering to take ideas from discovery to production. I can move between frontend, backend, AI integrations, data, infrastructure, and deployment — choosing the tools and architecture that fit the problem rather than forcing every solution into one stack.
+I work across the boundary between users, product, and engineering to take ideas from discovery to production. I can move between frontend, backend, AI integrations, data, infrastructure, and deployment, choosing the tools and architecture that fit the problem.
 
 - **Discover & shape:** understand workflows, constraints, and what success should look like.
 - **Design & build:** translate requirements into clear architecture, APIs, data models, and user experiences.
-- **Ship & operate:** deliver deployable software with testing, observability, security, and maintainability in mind.
-- **Iterate with users:** use feedback and real-world behavior to improve the product.
+- **Ship & operate:** deliver deployable software with testing, observability, security, and maintainability.
 
 ## Core Capabilities
 
@@ -129,26 +123,16 @@ A full-stack booking system focused on transactional correctness, concurrency, a
 | Area | Technologies |
 | --- | --- |
 | **Languages** | Python, Java, TypeScript, JavaScript, C |
-| **Backend** | FastAPI, **Spring Boot**, Flask, REST APIs, asynchronous services, WebSockets, SSE |
+| **Backend** | FastAPI, Spring Boot, Flask, REST APIs, asynchronous services, WebSockets, SSE |
 | **Frontend** | React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS |
 | **AI & Agent Systems** | Google ADK, LangGraph, LangChain, LiteLLM, MCP, A2A, tool calling |
 | **RAG & Data** | Embeddings, hybrid retrieval, PostgreSQL, pgvector, SQLAlchemy, Redis, MongoDB, Qdrant, Chroma |
 | **Cloud & Infrastructure** | Google Cloud, AWS, Docker, Docker Compose, Terraform / IaC |
 | **Engineering & Delivery** | pytest, API testing, GitHub Actions, CI/CD, observability, automated quality checks |
 
-I adapt to the stack and constraints that best serve the product — whether that means a Python AI service, a **Spring Boot** backend, a React application, or the infrastructure connecting them.
-
-## Background
-
-- **Education:** MBA in AI in Business — AAST; B.Sc. in Mechatronics Engineering — October 6 University
-- **Certifications:** ISTQB Certified Tester — Foundation Level (CTFL); ISTQB Agile Tester Extension; Google Cloud Professional Cloud Architect
-- **Languages:** English · Arabic
-
 ---
 
 ## Let's Connect
-
-I’m interested in solving real customer problems, building useful AI-powered products, and delivering software that works beyond the demo.
 
 <p>
   <a href="https://www.linkedin.com/in/eslamaboutaleb"><strong>LinkedIn</strong></a> ·
