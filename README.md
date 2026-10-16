@@ -26,6 +26,20 @@ A reusable Python toolkit for building retrieval-augmented generation systems wi
 
 **Stack:** Python, SQLAlchemy, PostgreSQL/pgvector, Qdrant, Chroma, FAISS, pytest
 
+### [Polymarket AI Trading Bot & Research Workspace](https://github.com/eslam-aboutaleb/polymarket-ai-trading)
+
+An AI-assisted workspace for prediction-market research, portfolio monitoring, strategy experimentation, and trading automation.
+
+- Research and analysis agents for market context, news, sentiment, and trader activity.
+- Strategy workflows for copy trading, market making, inverse positioning, and latency-arbitrage research.
+- Paper-trading and backtesting tools to evaluate strategies before live execution.
+- Portfolio analytics, execution monitoring, configurable risk limits, and stop-loss/take-profit controls.
+- Market monitoring, notifications, audit trails, and API integrations.
+
+**Stack:** Python, FastAPI, React, PostgreSQL, Redis, Docker, LLM integrations, Polymarket/Polygon
+
+*An engineering project for research and experimentation; backtests and generated analyses do not guarantee future trading performance.*
+
 ### [Insurance Claims RAG Assistant](https://github.com/eslam-aboutaleb/insurance-claims-rag-assistant)
 
 A full-stack customer-assistant prototype for a fictional insurer, using synthetic policy and claim data. It demonstrates how a domain-focused AI assistant can combine grounded retrieval with validated application workflows.
@@ -61,22 +75,6 @@ A full-stack booking application focused on correctness under concurrent request
 - Database migrations and tests for concurrency and authorization behavior.
 
 **Stack:** Python, FastAPI, PostgreSQL, React, Docker Compose, pytest
-
----
-
-## Additional Project
-
-### [Polymarket AI Trading Workspace](https://github.com/eslam-aboutaleb/polymarket-ai-trading)
-
-An AI-assisted workspace for prediction-market research, portfolio monitoring, strategy experimentation, and trading automation.
-
-- Research and analysis agents for market context and trader activity.
-- Paper-trading and backtesting workflows.
-- Strategy controls, portfolio analytics, and risk-management features.
-
-**Stack:** Python, FastAPI, React, PostgreSQL, Docker, LLM integrations
-
-This project is under active development. Trading involves financial risk; strategy features and backtests should not be interpreted as evidence of future returns.
 
 ---
 
