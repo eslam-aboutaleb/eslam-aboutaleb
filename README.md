@@ -1,171 +1,108 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1F6FEB,100:58A6FF&height=220&section=header&text=Eslam%20Ehab&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Senior%20AI%20%2F%20Fullstack%20Engineer&descSize=18&descAlignY=55&animation=fadeIn&duration=2000" width="100%"/>
-
 # Eslam Ehab
 
-**Senior AI / Fullstack Engineer — GenAI Systems, Agentic Architectures, RAG, Cloud-Native Backends**
+**AI & Full-Stack Engineer | Agentic AI · RAG · Backend Systems**
 
-I design and ship production AI products end to end: multi-agent orchestration, retrieval-augmented
-generation, evaluation harnesses, and the Backend / Frontend / cloud infrastructure that
-runs them.
+I build AI-enabled applications and backend systems, from reusable retrieval components to full-stack products. My work focuses on agent workflows, grounded answers, reliable APIs, data integrity, and evaluation-driven development.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eslamaboutaleb)
-[![Email](https://img.shields.io/badge/Email-eslamehababoutaleb@gmail.com?style=flat-square&logo=gmail&logoColor=white)](mailto:eslamehababoutaleb@gmail.com)
-
----
-
-## Focus Areas
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Agentic AI**
-- Multi-agent systems & orchestration
-- Function calling / tool use
-- Structured outputs
-- Prompt & context engineering
-- MCP, A2A protocol
-- Provider routing (LiteLLM)
-
-</td>
-<td width="50%" valign="top">
-
-**RAG & Evaluation**
-- Retrieval-Augmented Generation
-- Embeddings & vector search
-- Hybrid / semantic retrieval
-- Chunking & ingestion pipelines
-- Answer-quality evaluation (RAGAS)
-- Tracing & observability (LangSmith)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Backend Engineering**
-- FastAPI, async Python
-- REST, WebSocket, SSE streaming
-- Auth, authorization, idempotency
-- Microservices & background workers
-- Automated testing
-
-</td>
-<td valign="top">
-
-**Cloud & Delivery**
-- GCP — Vertex AI, Cloud Run, Cloud Storage
-- AWS — EC2, Lambda, S3
-- Terraform / IaC
-- Docker, CI/CD pipelines
-- GitHub Actions, Jenkins
-
-</td>
-</tr>
-</table>
+<p>
+  <a href="https://www.linkedin.com/in/eslamaboutaleb"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:eslamehababoutaleb@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/eslam-aboutaleb"><img src="https://img.shields.io/badge/GitHub-Projects-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
 
 ---
 
-## Selected Projects
+## Featured Projects
 
-### Polymarket AI Trading
-**Agentic trading · FastAPI · React · gRPC · Docker**
+### [ragit — Domain-Agnostic RAG Toolkit](https://github.com/eslam-aboutaleb/ragit)
 
-AI-assisted trading automation for Polymarket: copy-trading, market-making, inverse bot,
-latency arbitrage, whale monitoring, stop-loss/take-profit, LLM-powered market analysis,
-and backtesting over a FastAPI + React + gRPC stack.
+A reusable Python toolkit for building retrieval-augmented generation systems without coupling the core library to a specific application domain.
 
-- 25 services, 16 API route modules, 27 domain models
-- Real-time WebSocket market data and Binance signal ingestion
-- Kelly sizing, pre-trade risk gates, PnL reconciliation
-- Backtesting engine with copy-trade, indicator, and custom strategies
-- Docker Compose, pre-commit (ruff + prettier), 90%+ backend test coverage
+- Document chunking, embedding interfaces, ingestion pipelines, and pluggable vector-store backends.
+- Hybrid retrieval, including vector similarity and lexical search strategies.
+- Background embedding jobs, idempotent ingestion, and stale-job recovery.
+- Evaluation tools for retrieval quality, including Precision@K, Recall@K, and MRR.
+- MIT licensed.
 
-[Repository](https://github.com/eslam-aboutaleb/polymarket-ai-trading)
+**Stack:** Python, SQLAlchemy, PostgreSQL/pgvector, Qdrant, Chroma, FAISS, pytest
 
----
+### [Insurance Claims RAG Assistant](https://github.com/eslam-aboutaleb/insurance-claims-rag-assistant)
 
-### Insurance Claims RAG Assistant
-**Agentic RAG · Google ADK · pgvector · FastAPI · React**
+A full-stack customer-assistant prototype for a fictional insurer, using synthetic policy and claim data. It demonstrates how a domain-focused AI assistant can combine grounded retrieval with validated application workflows.
 
-Full-stack conversational assistant for the insurance claims domain. A Google ADK `LlmAgent` routes
-policyholder questions to a set of tools — grounded policy RAG, claim status lookup, and validated
-claim submission — over a pgvector store, with LiteLLM handling provider routing.
+- Policy-coverage answers with source citations and hybrid retrieval.
+- Agent tool use for claim-status lookup and validated, two-step claim submission.
+- FastAPI, PostgreSQL/pgvector, streaming responses, authentication, and audit events.
+- Dedicated tests and an evaluation gate for retrieval and refusal behavior.
 
-- Grounded answers with source citations and prompt-injection defenses
-- Streaming responses over SSE with tool-call transparency
-- JWT + HTTP-only cookie auth, rate limiting, idempotent claim submission
-- Alembic migrations, hybrid retrieval, RAG evaluation harness
-- Docker Compose, React + Tailwind frontend
+**Stack:** Python, Google ADK, LiteLLM, FastAPI, PostgreSQL, pgvector, React, Docker Compose
 
-[Repository](https://github.com/eslam-aboutaleb/insurance-claims-rag-assistant)
+> This is a demonstration project using synthetic data; it is not affiliated with a real insurance company.
 
----
+### [Ace Your Interview](https://github.com/eslam-aboutaleb/ace-your-interview)
 
-### Ace Your Interview
-**Adaptive learning platform · FastAPI · gRPC · MCP · React PWA**
+An adaptive interview-preparation platform that combines study workflows with AI-assisted practice across backend, frontend, system design, and AI engineering topics.
 
-Adaptive interview-preparation platform spanning Backend, Frontend, System Design and AI Stack
-tracks, with strict grounded generation that cites the source material behind every question.
+- Level-aware question and quiz generation with source-grounding checks.
+- FSRS-based spaced repetition and flashcards with Anki interoperability.
+- Mock interview sessions with rubric-based feedback.
+- RAG chat, learning progress, and a React-based user experience.
 
-- Level-aware question and quiz generation with source validation and retries
-- Adaptive engine tracking attempts, weak areas and topic mastery
-- Mock interview sessions with rubric-based feedback and reports
-- Provider-agnostic LLM settings, MCP gateway, gRPC service boundary
-- Google / GitHub OAuth, STT/TTS voice, PWA, Mermaid + code rendering
+**Stack:** Python, FastAPI, React, TypeScript, LLM integrations, RAG, MCP, Docker
 
-[Repository](https://github.com/eslam-aboutaleb/ace-your-interview)
+### [Workshop Reservation Service](https://github.com/eslam-aboutaleb/Workshop-reservation)
 
----
+A full-stack booking application focused on correctness under concurrent requests and safe retries.
 
-### Workshop Reservation Service
-**Concurrency-safe backend · FastAPI · PostgreSQL · SSE · React**
+- Transaction-safe reservations designed to prevent capacity overselling.
+- Idempotency keys for retry-safe reservation requests.
+- User-scoped reservation access and administrator controls.
+- Server-Sent Events for live availability updates.
+- Database migrations and tests for concurrency and authorization behavior.
 
-Reservation service built around the hard parts of booking systems: capacity limits under
-concurrent load, ownership enforcement, and safe client retries.
-
-- Transaction-safe reservations that never oversell capacity
-- `Idempotency-Key` handling for safe request retries
-- Server-Sent Events for live availability updates
-- Strict per-user reservation ownership, environment-scoped admin roles
-- Alembic migrations and a pytest suite covering concurrency and auth isolation
-
-[Repository](https://github.com/eslam-aboutaleb/Worshop-reservation)
+**Stack:** Python, FastAPI, PostgreSQL, React, Docker Compose, pytest
 
 ---
 
-### Interview Prep Platform
-**LLM application · Gemini · FastAPI · React · Docker**
+## Additional Project
 
-Interview-question generation and management platform: personalized question sets, full CRUD,
-progress tracking and statistics, served through FastAPI and a React/Tailwind frontend on
-Docker Compose with nginx.
+### [Polymarket AI Trading Workspace](https://github.com/eslam-aboutaleb/polymarket-ai-trading)
 
-[Repository](https://github.com/eslam-aboutaleb/Interview-Helper-Agent)
+An AI-assisted workspace for prediction-market research, portfolio monitoring, strategy experimentation, and trading automation.
+
+- Research and analysis agents for market context and trader activity.
+- Paper-trading and backtesting workflows.
+- Strategy controls, portfolio analytics, and risk-management features.
+
+**Stack:** Python, FastAPI, React, PostgreSQL, Docker, LLM integrations
+
+This project is under active development. Trading involves financial risk; strategy features and backtests should not be interpreted as evidence of future returns.
 
 ---
 
-## Technical Skills
+## Technical Focus
 
-| Area | Technologies |
+| Area | Technologies and practices |
 | --- | --- |
-| **Languages** | Python, Java, TypeScript, JavaScript, C |
-| **AI frameworks** | Google ADK, LangGraph, LangChain, LiteLLM, MCP, A2A Protocol |
-| **Agent engineering** | Multi-agent systems, agent orchestration, function calling, structured outputs, prompt & context engineering |
-| **RAG & evaluation** | Vector search, embeddings, RAG agents, RAGAS, LangSmith, ChromaDB |
-| **Backend** | FastAPI, SpringBoot, Flask, REST APIs, microservices, AsyncIO, WebSockets, SSE |
-| **Frontend** | React, Tailwind CSS, HTML5, CSS3 |
-| **Cloud & AI platforms** | GCP (Vertex AI, Cloud Run, Cloud Storage, Agent Engine), AWS (EC2, Lambda, S3) |
-| **Infrastructure** | Terraform, IaC, Docker, CI/CD |
-| **Data** | PostgreSQL,MongoDb, pgvector, chroma, Qdrant, Redis |
+| **AI & agent systems** | Google ADK, LiteLLM, tool calling, structured outputs, MCP |
+| **RAG & evaluation** | Embeddings, hybrid retrieval, vector stores, retrieval evaluation, source-grounded responses |
+| **Backend engineering** | Python, FastAPI, async APIs, REST, WebSockets, Server-Sent Events |
+| **Data & persistence** | PostgreSQL, pgvector, SQLAlchemy, Redis, MongoDB |
+| **Frontend** | React, TypeScript, JavaScript, Tailwind CSS |
+| **Testing & delivery** | pytest, API testing, Docker, Docker Compose, GitHub Actions, CI/CD |
+| **Cloud & infrastructure** | AWS, Google Cloud, Terraform / infrastructure as code |
 
----
+## Engineering Principles
 
+- **Ground AI outputs in evidence:** treat retrieval quality, citations, and evaluation as part of the application—not an afterthought.
+- **Design APIs for real failure modes:** consider validation, authorization boundaries, idempotency, concurrency, and useful error handling.
+- **Make projects reproducible:** provide clear setup instructions, controlled configuration, migrations, and automated checks.
+- **Prefer transparent engineering:** document design decisions, limitations, and the difference between a working prototype and a production deployment.
 
 ---
 
 ## Connect
 
-- **Email** — [eslamehababoutaleb@gmail.com](mailto:eslamehababoutaleb@gmail.com)
-- **LinkedIn** — [linkedin.com/in/eslamaboutaleb](https://www.linkedin.com/in/eslamaboutaleb)
-- **GitHub** — [github.com/eslam-aboutaleb](https://github.com/eslam-aboutaleb)
+- **LinkedIn:** [linkedin.com/in/eslamaboutaleb](https://www.linkedin.com/in/eslamaboutaleb)
+- **Email:** [eslamehababoutaleb@gmail.com](mailto:eslamehababoutaleb@gmail.com)
+- **GitHub:** [github.com/eslam-aboutaleb](https://github.com/eslam-aboutaleb)
