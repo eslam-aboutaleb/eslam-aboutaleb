@@ -14,9 +14,6 @@
 </p>
 
 ---
-
-## How I Work
-
 I work across the boundary between users, product, and engineering to take ideas from discovery to production. I can move between frontend, backend, AI integrations, data, infrastructure, and deployment, choosing the tools and architecture that fit the problem.
 
 - **Discover & shape:** understand workflows, constraints, and what success should look like.
