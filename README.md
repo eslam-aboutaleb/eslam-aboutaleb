@@ -49,7 +49,7 @@ I work across the boundary between users, product, and engineering to take ideas
 
 ## Featured Projects
 
-### [ragit — Domain-Agnostic RAG Toolkit](https://github.com/eslam-aboutaleb/ragit)
+### [ragnor — Domain-Agnostic RAG Toolkit](https://github.com/eslam-aboutaleb/ragnor)
 
 A reusable Python toolkit for building retrieval-augmented generation systems without coupling core retrieval machinery to a particular application domain.
 
@@ -59,7 +59,7 @@ A reusable Python toolkit for building retrieval-augmented generation systems wi
 - Retrieval evaluation with metrics such as Precision@K, Recall@K, and MRR.
 
 **Stack:** Python · SQLAlchemy · PostgreSQL/pgvector · Qdrant · Chroma · FAISS · pytest  
-[Explore the repository →](https://github.com/eslam-aboutaleb/ragit)
+[Explore the repository →](https://github.com/eslam-aboutaleb/ragnor)
 
 ### [Polymarket AI Trading Bot & Research Workspace](https://github.com/eslam-aboutaleb/polymarket-ai-trading)
 
