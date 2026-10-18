@@ -49,7 +49,7 @@ I work across the boundary between users, product, and engineering to take ideas
 
 ## Featured Projects
 
-### [ragnor — Domain-Agnostic RAG Toolkit](https://github.com/eslam-aboutaleb/ragnor)
+### [Ragnor — Domain-Agnostic RAG Toolkit](https://github.com/eslam-aboutaleb/ragnor)
 
 A reusable Python toolkit for building retrieval-augmented generation systems without coupling core retrieval machinery to a particular application domain.
 
