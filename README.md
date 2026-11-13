@@ -62,6 +62,19 @@ A reusable Python toolkit for building retrieval-augmented generation systems wi
 **Stack:** Python · SQLAlchemy · PostgreSQL/pgvector · Qdrant · Chroma · FAISS · pytest  
 [Explore the repository →](https://github.com/eslam-aboutaleb/ragnor)
 
+### [Ticket Classification — Multilingual Topic Discovery & Routing](https://github.com/eslam-aboutaleb/ticket-classification)
+
+A domain-agnostic pipeline for grouping customer-service tickets, technical requests, and claims, then routing new inputs against the discovered categories.
+
+- Multilingual embeddings, Unicode normalization, PII masking, and pluggable domain profiles.
+- HDBSCAN topic discovery with a dataset-driven cluster count; optional automatic K selection with K-Means.
+- Classification against saved categories, with open-set detection and review routing for unfamiliar or ambiguous inputs.
+- Tenant-scoped model storage, durable training jobs, approval gates, and container deployment with CI checks.
+
+**Stack:** Python · FastAPI · scikit-learn · HDBSCAN · Embeddings · SQLite · Docker · GitHub Actions
+
+[Explore the repository →](https://github.com/eslam-aboutaleb/ticket-classification)
+
 ### [Polymarket AI Trading Bot & Research Workspace](https://github.com/eslam-aboutaleb/polymarket-ai-trading)
 
 An AI-assisted workspace for prediction-market research, portfolio monitoring, strategy experimentation, and trading automation.
